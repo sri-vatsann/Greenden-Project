@@ -23,7 +23,7 @@ This is a **three-page responsive website** built using **HTML** and **Tailwind 
 ## 🔗 Live Demo
 
 [Click here to view the live site]((https://sri-vatsann.github.io/Greenden-Project/))
-
+https://sri-vatsann.github.io/Greenden-Project/
 ## 📌 Future Improvements
 
 * Add interactivity with JavaScript
