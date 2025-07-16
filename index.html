@@ -19,10 +19,11 @@
 
       <!--Menu bar svg-->
       <svg
+        id="menuicon"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        class="w-6 h-6 md:hidden"
+        class="w-6 h-6 md:hidden cursor-pointer"
       >
         <path
           fill-rule="evenodd"
@@ -36,13 +37,43 @@
           <a class="hover:underline hover:text-black" href="#">Home</a>
         </li>
         <li>
-          <a class="hover:underline hover:text-black" href="./product.html">Products</a>
+          <a class="hover:underline hover:text-black" href="./product.html"
+            >Products</a
+          >
         </li>
         <li>
-          <a class="hover:underline hover:text-black" href="./contact.html">Contact</a>
+          <a class="hover:underline hover:text-black" href="./contact.html"
+            >Contact</a
+          >
         </li>
       </ul>
     </nav>
+
+    <!--Sided Nav Bar-->
+    <section
+      id="sidenav"
+      class="bg-green-100 fixed top-0 z-20 transition-all duration-1000"
+      style="width: 50%; height: 100vh; right: -50%"
+    >
+      <div class="text-right p-5">
+        <p class="inline cursor-pointer" id="xmark">X</p>
+      </div>
+      <ul class="flex flex-col gap-10 items-center text-gray-500">
+        <li>
+          <a class="hover:underline hover:text-black" href="#">Home</a>
+        </li>
+        <li>
+          <a class="hover:underline hover:text-black" href="./product.html"
+            >Products</a
+          >
+        </li>
+        <li>
+          <a class="hover:underline hover:text-black" href="./contact.html"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </section>
     <!--Header Section-->
 
     <section class="bg-green-100 md:p-10 p-4 flex justify-center">
@@ -263,5 +294,7 @@
       </p>
       <p class="mt-5">@ 2025 Greenday.com</p>
     </section>
+
+    <script src="./index.js"></script>
   </body>
 </html>
